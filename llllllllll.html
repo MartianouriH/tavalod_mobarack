@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .circle {
+        border: 2px solid red;
+  padding: 10px;
+  border-radius: 40px;
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: moving-ball;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+       }
+       @keyframes moving-ball {
+0% {
+transform: translateY(0);
+background-color: red;
+
+}
+49% {
+
+height: 30px;
+}
+50% {
+transform: translateY(500px);
+background-color: red;
+}
+51% {
+    height: 36px;
+}
+52% {
+    height: 43px;
+}
+53% {
+    height: 49px;
+}
+100% {
+transform: translateY(0);
+background-color: red;
+}
+
+       }
+       li {
+        color: red;
+        text-decoration: none;
+    list-style: none;
+    display: inline-block;
+       }
+       ul li a {
+    display: block;
+    text-decoration: none;
+    font-family: arial;
+   color: red;
+font-size: 100%;
+    }
+    </style>
+</head>
+<body>
+    <div class="circle"><li><a href="inax.html">kk</a></li></div>
+</body>
+</html>
